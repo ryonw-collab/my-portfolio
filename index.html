@@ -3,93 +3,101 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Ryon Williams — Portfolio</title>
+  <title>Ryon Williams — Resume</title>
   <style>
     :root{--accent:#4f46e5;--bg:#f8fafc;--text:#0f172a}
-    *{box-sizing:border-box}body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;color:var(--text);background:var(--bg);line-height:1.5}
+    *{box-sizing:border-box}body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial;margin:0;color:var(--text);background:var(--bg);line-height:1.5}
     header{background:#fff;border-bottom:1px solid #e6eef8}
-    .container{max-width:1100px;margin:0 auto;padding:1rem}
-    .nav{display:flex;align-items:center;justify-content:space-between;gap:1rem}
-    .brand{font-weight:700;color:var(--accent);font-size:1.125rem}
-    nav a{color:#334155;text-decoration:none;margin-left:1rem}
-    .hero{display:flex;flex-direction:column;gap:1rem;padding:4rem 0}
-    .hero h1{font-size:2rem;margin:0}
-    .hero p{max-width:60ch;color:#475569}
-    section{padding:3rem 0}
-    .card{background:#fff;padding:1.25rem;border-radius:0.5rem;box-shadow:0 1px 3px rgba(2,6,23,0.04);border:1px solid #eef2ff}
-    .skills{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem}
-    .skill{background:#eef2ff;color:var(--accent);padding:.4rem .6rem;border-radius:.375rem;font-weight:600;font-size:.875rem}
+    .container{max-width:900px;margin:0 auto;padding:1rem}
+    .nav{display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:700;color:var(--accent)}
+    a{color:inherit}
+    .card{background:#fff;padding:1.25rem;border-radius:.5rem;border:1px solid #eef2ff;box-shadow:0 1px 3px rgba(2,6,23,.04)}
+    h1,h2,h3,h4{margin:0 0 .5rem 0}
+    ul{margin-top:0}
     footer{padding:2rem 0;color:#94a3b8;text-align:center}
-    @media(min-width:768px){.hero{flex-direction:row;align-items:center;justify-content:space-between}.hero h1{font-size:2.5rem}}
   </style>
 </head>
 <body>
-
   <header>
     <div class="container nav">
       <div class="brand">Ryon Williams</div>
       <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html">Home</a>
       </nav>
     </div>
   </header>
 
   <main class="container">
-    <section id="home" class="hero">
-      <div>
-        <h1>Welcome — I build data-driven solutions</h1>
-        <p>Hi! I'm Ryon Williams, a data scientist who loves turning data into actionable insights. I work on data cleaning, modeling, and visualization to help teams make better decisions.</p>
-      </div>
-      <div class="card" style="min-width:220px;max-width:360px">
-        <p style="margin:0;font-weight:600">Currently</p>
-        <p style="margin:.25rem 0 0;color:#475569">Exploring machine learning, feature engineering, and productionizing models.</p>
-      </div>
-    </section>
+    <section style="padding:2rem 0">
+      <div class="card">
+        <h1>Ryon Williams</h1>
+        <p>Canoga Park, CA 91303 · (213) 509-9134 · <a href="mailto:ry0nwilliam@gmail.com">ry0nwilliam@gmail.com</a></p>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <div class="card" style="margin-top:.75rem">
-        <p>I am a data enthusiast with experience in exploratory data analysis, statistical modeling, and building ML pipelines. I enjoy collaborating with stakeholders to craft solutions that solve real problems.</p>
-      </div>
-    </section>
+        <h2 style="margin-top:1rem">Summary</h2>
+        <ul>
+          <li>Leadership & Team Management: managed teams of 20+ with coaching and performance reviews.</li>
+          <li>Customer Relationship Management: built lasting client relationships and drove satisfaction.</li>
+          <li>Problem Solving & Decision Making: strong analytical skills for informed decisions.</li>
+          <li>Communication & Collaboration: effective communicator in team and independent settings.</li>
+          <li>Prioritization & Time Management: adept at managing multiple tasks and meeting deadlines.</li>
+        </ul>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <div class="card" style="margin-top:.75rem">
-        <p style="margin:0 0 .5rem 0">Data Science & ML</p>
-        <div class="skills">
-          <span class="skill">Python</span>
-          <span class="skill">Pandas</span>
-          <span class="skill">NumPy</span>
-          <span class="skill">scikit-learn</span>
-          <span class="skill">TensorFlow</span>
-          <span class="skill">PyTorch</span>
-          <span class="skill">SQL</span>
-          <span class="skill">Data Visualization</span>
-          <span class="skill">Statistics</span>
-          <span class="skill">Feature Engineering</span>
-          <span class="skill">Model Deployment</span>
-        </div>
-      </div>
-    </section>
+        <h2 style="margin-top:1rem">Experience</h2>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <div class="card" style="margin-top:.75rem">
-        <p>Replace this with your preferred contact details or a link to your resume/GitHub.</p>
+        <h3>Account Manager — Frontier</h3>
+        <p><em>01/2021 to 05/2025</em></p>
+        <ul>
+          <li>Led multiple teams of sales representatives, overseeing daily operations and performance goals.</li>
+          <li>Managed customer accounts, ensuring client needs were met to drive retention and satisfaction.</li>
+          <li>Engaged in face-to-face customer interactions to promote services and close high-value deals.</li>
+          <li>Assessed team performance and provided coaching to enhance growth and meet sales targets.</li>
+        </ul>
+
+        <h3>Insurance Agent — American Income Life</h3>
+        <p><em>08/2021 to 12/2021</em></p>
+        <ul>
+          <li>Acted as a financial advisor, helping families secure long-term protection through whole life policies.</li>
+          <li>Delivered personalized service and trained new recruits on best practices.</li>
+        </ul>
+
+        <h3>Inbound Closer</h3>
+        <p><em>04/2021 to 08/2021</em></p>
+        <ul>
+          <li>Trained under sales mentors, mastering telemarketing and closing strategies for high-conversion sales.</li>
+          <li>Participated in coaching sessions to refine techniques and improve closing ratios.</li>
+        </ul>
+
+        <h3>Customer Service Associate — Vons</h3>
+        <p><em>10/2019 to 05/2021</em></p>
+        <ul>
+          <li>Provided customer service across cashier, bagging, and clerical roles; supported multiple departments.</li>
+        </ul>
+
+        <h3>Researcher — TANMS (UCLA)</h3>
+        <p><em>06/2019 to 08/2019</em></p>
+        <ul>
+          <li>Collaborated on a microfluidic bioengineering research project with Dr. Dino Di Carlo and graduate students.</li>
+          <li>Presented research results to the NSF board and worked in diverse team environments.</li>
+        </ul>
+
+        <h2 style="margin-top:1rem">Languages</h2>
+        <p>English (Fluent, professional-level grammar and communication skills)</p>
+
+        <h2 style="margin-top:1rem">Education</h2>
+        <ul>
+          <li>California State University, Dominguez Hills — Biology, Computer Engineering and Business (09/2025) — initially Biology, then transitioned studies.</li>
+          <li>California State University, Long Beach — Cyber Security program (08/2021)</li>
+          <li>Westchester High School, Los Angeles, CA — Gifted Honors Magnet Program; Captain of Lacrosse Team (06/2020)</li>
+        </ul>
       </div>
     </section>
   </main>
 
   <footer>
-    © <span id="year"></span> Ryon Williams — Built with HTML & CSS
+    © <span id="year"></span> Ryon Williams
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
